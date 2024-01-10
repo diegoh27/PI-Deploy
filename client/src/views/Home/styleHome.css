@@ -114,16 +114,11 @@
   /* Estilos para pantallas más pequeñas */
   @media (max-width: 768px) {
     .sideBar div {
-      margin-left: 0;
-      display: flex; 
-      align-items: center; 
-     justify-items: center;
-     justify-content: center;
-     margin-left: 4rem;
+      margin-left: -2rem;
+      margin-right: 5rem;
       /* Eliminamos el margen izquierdo en pantallas pequeñas */
     }
-    
-  
+
     .sideBar ul {
       flex-direction: column; /* Cambiamos la dirección de la lista a vertical */
       align-items: center; /* Centramos los elementos verticalmente */
