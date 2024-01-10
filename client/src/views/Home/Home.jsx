@@ -63,23 +63,6 @@ const Home = () => {
     dietsData();
   }, []);
 
-  // useEffect(() => {
-  //     dispatch(getAll())
-  //     if(recipesR.length) {
-  //         setRecipes(currentRecipes?.map((recipe) => {
-  //             return {
-  //                 key: recipe.id,
-  //                 id: recipe.id,
-  //                 name:recipe.name,
-  //                 image: recipe.image,
-  //                 create: recipe?.db,
-  //                 Diets: recipe.Diets
-  //             }
-  //         }))
-  //     }
-  //     return setRecipes([])
-  // }, [])
-
   useEffect(() => {
     setRecipes(
       currentRecipes?.map((recipe) => {
