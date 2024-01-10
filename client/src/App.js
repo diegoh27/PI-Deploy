@@ -13,7 +13,10 @@ import { getAll } from "./redux/actions";
 import { useSelector } from "react-redux";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3001/";
+//! Produccion
+axios.defaults.baseURL = "https://recipesfoods-production.up.railway.app/";
+//! Local
+// Local axios.defaults.baseURL = "http://localhost:3001/";
 
 function App() {
   const dispatch = useDispatch();
