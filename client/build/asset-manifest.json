@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0bdf5c92.css",
+    "main.js": "/static/js/main.a92a82f2.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/35767-comida.jpg": "/static/media/35767-comida.16de17a2b95eb012611c.jpg",
+    "static/media/35733.jpg": "/static/media/35733.7548fa97027780f101d3.jpg",
+    "static/media/whole30diet.jpg": "/static/media/whole30diet.bd53ea33fb9d4f427a7d.jpg",
+    "static/media/paleoDiet.png": "/static/media/paleoDiet.0afe3d093392fd042840.png",
+    "static/media/pescatarianDiet.png": "/static/media/pescatarianDiet.12289a503d225607cbe5.png",
+    "static/media/lactovo.jpg": "/static/media/lactovo.de292231b582ef75f9b4.jpg",
+    "static/media/fondoError.jpg": "/static/media/fondoError.a89f4c03f9f21825bb6f.jpg",
+    "static/media/veganDiet.jpg": "/static/media/veganDiet.3db2c089678cdf21c65f.jpg",
+    "static/media/vegetarianDiet.jpg": "/static/media/vegetarianDiet.8a2108fa7393f2536ea3.jpg",
+    "static/media/ketodiet.jpg": "/static/media/ketodiet.80f13da6ff2f3dda4ab8.jpg",
+    "static/media/lowfodmapDiet.png": "/static/media/lowfodmapDiet.8b070bbd2c977f7fd067.png",
+    "static/media/Gluten-Free-Foods-2.jpg": "/static/media/Gluten-Free-Foods-2.d132cf467e173cdaa89d.jpg",
+    "static/media/primalDiet.jpg": "/static/media/primalDiet.05f93c14a64ff6dd7a5f.jpg",
+    "static/media/ovolacto.jpg": "/static/media/ovolacto.951cb0cb99b4d5e42963.jpg",
+    "static/media/cook-book-logo-3.jpg": "/static/media/cook-book-logo-3.3a465586fc6b235c086a.jpg",
+    "index.html": "/index.html",
+    "main.0bdf5c92.css.map": "/static/css/main.0bdf5c92.css.map",
+    "main.a92a82f2.js.map": "/static/js/main.a92a82f2.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bdf5c92.css",
+    "static/js/main.a92a82f2.js"
+  ]
+}
