@@ -15,7 +15,7 @@ const Detail = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/recipes/${id}`)
+      .get(`recipes/${id}`)
       .then((response) => response.data)
       .then((data) => {
         if (data.name) {
