@@ -165,7 +165,6 @@ const Home = () => {
           <ul>
             <li>
               <div>
-                <img src="" alt="" />
                 <span className="nav-item">Coock Boock</span>
               </div>
             </li>
@@ -245,12 +244,13 @@ const Home = () => {
 
             <li>
               <div href="">
-                <i className="">
-                  <ion-icon name="medkit-outline"></ion-icon>
-                </i>
-                <label className="nav-item">HealthScore</label>
-
-                <ul>
+                <div className="item-flex">
+                  <i className="">
+                    <ion-icon name="medkit-outline"></ion-icon>
+                  </i>
+                  <label className="nav-item">HealthScore</label>
+                </div>
+                <ul className="perso">
                   <select onChange={handleOrderHealth}>
                     <option selected disabled>
                       Order

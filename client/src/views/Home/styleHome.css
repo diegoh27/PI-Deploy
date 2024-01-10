@@ -6,29 +6,46 @@
     border-radius: 10px;
     box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
     margin-top: -1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+
   }
   
   .sideBar div {
-    margin-left: 3.5rem;
+    padding-left: 4rem;
   }
   
   .sideBar ul {
-    display: flex;
-    position: relative;
     list-style-type: none;
+    
   }
+
   
   .sideBar ul li div {
     font-size: 1.15rem;
     text-decoration: none;
     text-transform: capitalize;
-    text-align: center;
+   
     color: #ffdab9;
-    padding: 5px 10px;
     transition: 0.5s ease;
     border-radius: 0 30px;
   }
   
+  .item-flex {
+    
+    display: flex;
+    align-items: center;   
+  }
+
+  .perso {
+    margin-left: 3rem;
+  }
+  
+
+
+
   .sideBar ul li div:hover {
     background: rgba(0, 0, 0, 0.7);
     color: #bc6c25;
@@ -41,7 +58,6 @@
     border-radius: 3rem;
     width: 5rem;
     padding: 0.5rem;
-    background: #009688;
     background-image: none;
     color: #bc6c25;
     cursor: pointer;
@@ -98,8 +114,15 @@
   /* Estilos para pantallas más pequeñas */
   @media (max-width: 768px) {
     .sideBar div {
-      margin-left: 0; /* Eliminamos el margen izquierdo en pantallas pequeñas */
+      margin-left: 0;
+      display: flex; 
+      align-items: center; 
+     justify-items: center;
+     justify-content: center;
+     margin-left: 4rem;
+      /* Eliminamos el margen izquierdo en pantallas pequeñas */
     }
+    
   
     .sideBar ul {
       flex-direction: column; /* Cambiamos la dirección de la lista a vertical */
@@ -122,4 +145,11 @@
       
     }
   
+    .perso {
+      margin-right: 0;
+    }
+    .perso select {
+      width: 5rem;
+      margin-left: -3rem;
+    }
   }
